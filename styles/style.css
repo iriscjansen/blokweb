@@ -1,5 +1,30 @@
-/* CSS Document */
-*, *::after, *::before {
-  box-sizing:border-box;  
+body {
+  background-color:white;
+}
+
+h1{
+	font-family:'Avenir';
+}
+p{
+	font-family:'Avenir';
+	font-size:'.25em';
+}
+
+li img {
+	width:50%;
+}
+
+
+/*om de cirkels naast elkaar te krijgen*/
+ul {
+  list-style:none;
+  display:flex;
+  justify-content:center;
+}
+
+img {
+	width:70%;
+	display:flex;
+	justify-content:center;
 }
 
