@@ -1,13 +1,36 @@
+/*
+- wil p's verschillende css geven, hoe roep ik die aan?
+zat een beetje te klooien met dat 'nth of type' maar dat wil niet lukken
+ */
+
 body {
   background-color:white;
 }
 
 h1{
 	font-family:'Avenir';
+	font-size: 20px;
 }
+
+h2{
+	font-family:'Avenir';
+	font-size: 20px;
+	line-height:24px;
+	color:white;
+	white-space: nowrap;
+}
+
+h3{
+	font-family:'Avenir';
+	font-size: 16px;
+	line-height:17px;
+	text-align:center;
+	background-color:#f4eddd;
+}
+
 p{
 	font-family:'Avenir';
-	font-size:'.25em';
+	font-size: 10px;
 }
 
 li img {
@@ -16,15 +39,36 @@ li img {
 
 
 /*om de cirkels naast elkaar te krijgen*/
-ul {
+body > ul {
   list-style:none;
   display:flex;
-  justify-content:center;
+  justify-content:space-around;
 }
 
-img {
-	width:70%;
-	display:flex;
-	justify-content:center;
+
+ul li{
+	list-style-type: none;
+}
+body > ul li img{
+	border-radius: 50%;
 }
 
+section ul li img {
+	display: block;
+	width: 100%;
+}
+
+section ul {
+	padding: 0;
+}
+
+section ul li:first-of-type {
+	position: relative;
+}
+
+section ul li:first-of-type h2 {
+	position: absolute;
+	top: 80%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
