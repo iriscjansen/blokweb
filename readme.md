@@ -37,8 +37,15 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 ## Voortgang 1 (week 3)
 
 ### Stand van zaken
+ 
+Wat ging er minder goed?
 
--dit ging goed & dit was lastig-
+-lastig om de teksten op een afbeelding te positioneren
+-lastig om met 'nth of type' te werken, ben classes zo gewend 
+
+Wat ging er goed?
+
+-niet iets specifieks, ik vond het al goed gaan als iets werkt
 
 **Screenshot(s):**
 
