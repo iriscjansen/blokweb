@@ -49,7 +49,7 @@ Wat ging er goed?
 
 **Screenshot(s):**
 
--screenshot(s) van hoe ver je bent-
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/voortgang_1.png)
 
 ### Agenda voor meeting
 
