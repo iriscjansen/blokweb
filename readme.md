@@ -6,7 +6,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 
 ## Bronnenlijst
-1. -bron 1-
+1. Sam
 2. -bron 2-
 3. -...-
 
@@ -49,11 +49,17 @@ Wat ging er goed?
 
 **Screenshot(s):**
 
-![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/voortgang_1.png)
+![img van voortgang](images/voortgang_2.png)
 
 ### Agenda voor meeting
+- dingen naast elkaar zetten. Op mobiel bijvoorbeeld 2 en desktop 4
+- Hoe kun je makkelijker zien nth gebeuren
+- Mag je classes  gebruiken
+- Mag je classes  gebruiken
+- Moet je hamburger laten werken? 
+- Hoe zet je het om in een hamburgermenu
+- flexbox vragen, naast elkaar zetten bijvoorbeeld.
 
--samen met je groepje opstellen-
 
 ### Verslag van meeting
 
