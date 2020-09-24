@@ -6,8 +6,8 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 
 ## Bronnenlijst
-1. Sam
-2. -bron 2-
+1. https://css-tricks.com/
+2. Sam Slotemaker
 3. -...-
 
 
@@ -63,7 +63,7 @@ Wat ging er goed?
 
 ### Verslag van meeting
 
--na afloop snel uitkomsten vastleggen-
+Joost heeft van alles uitgelegd en toegelicht, daardoor is veel opgehelderd. Ook heeft hij van een aantal dingen gezegd dat ik dat moest aanpassen. Hier werd ik een beetje verdrietig van maar nadat het toch was gelukt, was ik weer blij.
 
 
 
@@ -71,7 +71,7 @@ Wat ging er goed?
 
 **Je startniveau:** De blauwe piste
 
-**Je focus:** Extra aandacht voor de surface laag
+**Je focus:** Twijfel ik nog steeds over
 
 **Je opdracht:** https://www2.hm.com/nl_nl/index.html
 

@@ -2,10 +2,11 @@
 
 
 body {
-  background-color:white;
-  text-align:center;
-  font-family: 'Montserrat', sans-serif;
-  text-align: center;
+	background-color: white;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	margin:0;
 }
 
 
@@ -13,10 +14,10 @@ h1 {
 	position: absolute;
 	left: -10000em;
 }
+
 h2 {
 	font-size: 20px;
-	line-height:24px;
-	color:black;
+	line-height: 24px;
 	white-space: nowrap;
 }
 
@@ -24,63 +25,117 @@ p {
 	font-family: 'Montserrat', sans-serif;
 }
 
+button {
+	border: none;
+	background-color: white;
+}
+
 /* trending text */
 body > section h2 {
 	font-size: 15px;
-	text-align:left;
+	text-align: left;
+	padding-left:1em;
+}
+
+body > section p {
+	font-size:11px;
 }
 
 h3 {
 	font-size: 16px;
-	line-height:17px;
-	text-align:center;
+	line-height: 17px;
+	text-align: center;
 }
 
-h4{
+h4 {
 	font-size: 20px;
-	line-height:24px;
-	color:black;
+	line-height: 24px;
+	color: black;
 	white-space: nowrap;
-	font-weight:bold;
+	font-weight: bold;
 }
 
-section p{
+.toonHamburger nav ul:first-of-type {
+	left: 0;
+	opacity: 1;
+}
+
+nav ul:first-of-type {
+	opacity: 0;
+	box-shadow: 0px 0px 1px 5000px rgba(0, 0, 0, 0.8);
+	left: -100%;
+	position: fixed;
+	/* display: flex; */
+	flex-direction: column;
+	height: 100vh;
+	background-color: white;
+	width: 70vw;
+	margin: 0;
+	top: 0;
+
+	justify-content: flex-start;
+	align-items: flex-start;
+	padding: 2em;
+	z-index: 100;
+
+	transition: all 0.3s ease-out;
+} 
+
+nav a {
+	color:black;
+	list-style: none;
+	text-decoration: none;
+	font-size:17px;
+	font-weight:normal;
+}
+
+nav a:active {
+	color:red;
+}
+
+section p {
 	font-size: 10px;
 }
 
-footer p{
-	font-size:10px;
+footer p {
+	font-size: 10px;
 }
 
-main section > ul li:first-of-type p{
+main section>ul li:first-of-type p {
 	font-size: 15px;
-	line-height:14px;
-	color:white;
+	line-height: 14px;
+	color: white;
 	white-space: nowrap;
-	text-align:center;
+	text-align: center;
 }
 
-main section > ul li:nth-of-type(3)  p{
+main section>ul li:nth-of-type(3) p {
 	font-size: 15px;
-	line-height:14px;
-	color:white;
+	line-height: 14px;
+	color: white;
 	white-space: nowrap;
-	text-align:center;
+	text-align: center;
 }
 
-main > section:nth-of-type(1)  {
-	max-width:90%;
-	margin:auto;
+main>section:nth-of-type(1) {
+	max-width: 90%;
+	margin: auto;
 }
 
 main section:nth-of-type(2) {
-	background-color:#f4eddd;
-	padding:0 20px;
+	background-color: #f4eddd;
+	padding: 1.5em;
 }
 
 main section:nth-of-type(2) a {
 	text-decoration: underline;
-	font-size:12px;
+	font-size: 12px;
+}
+
+main section:last-of-type section {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-gap: 1em;
 }
 
 main section:nth-of-type(2) article a {
@@ -90,80 +145,97 @@ main section:nth-of-type(2) article a {
 main section:nth-of-type(2) img {
 	display: block;
 	width: 100%;
-	margin:auto;
+	margin: auto;
 }
 
 article {
-	background-color:white;
-} 
-
-article h2{
-   font-weight:normal;
-   font-size:12px;
+	background-color: white;
+	padding-bottom: 1em;
 }
 
-article p{
-	font-size:15px;
-	font-weight:500;
+article h2 {
+	font-weight: normal;
+	font-size: 12px;
 }
 
-main > section:nth-of-type(2) article a{
-	display:block;
-	margin-top:2em;
+article p {
+	font-size: 15px;
+	font-weight: 500;
+}
+
+main>section:nth-of-type(2) article a {
+	display: block;
+	margin-top: 2em;
 }
 
 
 section li img {
-	width:60%;
+	width: 60%;
 }
 
-header > p {
+body > header {
+	  width: 100%;    
+	  position: sticky;    
+	  z-index: 1000;    
+	  top: 0;    
+	  background-color: #fff;
+}
+
+header>p {
 	font-size: 11px;
-	line-height:18px;
-	text-align:center;
+	line-height: 18px;
+	text-align: center;
 }
 
-header > nav ul li img {
-	width:1.5em;
+header>nav ul li img {
+	width: 1.5em;
 }
 
-header > nav ul {
-	list-style:none;
- 	display:flex;
-    justify-content:space-between;
-    padding:0;
-	}
-
-header > nav {
+header>nav ul {
+	list-style: none;
 	display: flex;
-    justify-content: space-between;
+	justify-content: space-between;
+	padding: 0;
 }
 
-header > nav ul li {
-	margin-right:1em;
+header>nav {
+	display: flex;
+	justify-content: space-between;
+}
+
+header>nav ul li {
+	margin-right: 1em;
 }
 
 nav {
-	padding:.4em;
+	padding: .4em;
 }
 
 
 /*om de cirkels naast elkaar te krijgen*/
-body > section ul {
-  list-style:none;
-  display:flex;
-  justify-content:space-between;
-  padding:0;
+body>section ul {
+	position: relative;
+	display: flex;
+	padding:0;
+	flex-direction: row;
+	overflow: hidden;
+	width: 100%;
 }
 
-section ul li{
+body>section ul li {
+	display: block;
+	width: 25%;
+}
+
+section ul li {
 	list-style-type: none;
 }
-body >  section ul li img{
+
+body>section ul li img {
 	border-radius: 50%;
 }
 
-main > section ul li img {
+main>section ul li img {
 	display: block;
 	width: 100%;
 }
@@ -172,42 +244,44 @@ main section ul {
 	padding: 0;
 }
 
-section ul li:first-of-type, section ul li:nth-of-type(3){
+section ul li:first-of-type,
+section ul li:nth-of-type(3) {
 	position: relative;
 }
 
-main section ul li:nth-of-type(2){
-	background-color:#f4eddd;
-	padding:2em;
-	margin:1em 0; 	
+main section ul li:nth-of-type(2) {
+	background-color: #f4eddd;
+	padding: 2em;
+	margin: 1em 0;
 }
 
-main > section > h3 {
+main>section>h3 {
 	position: absolute;
 	left: -10000em;
 }
 
 main section ul li:first-of-type h2 {
 	color: white;
-	font-size:20px;
+	font-size: 20px;
 }
 
 main section ul li:nth-of-type(3) h2 {
 	color: white;
-	font-size:18px;
+	font-size: 18px;
 }
 
-main > section:nth-of-type(2) header{
-	padding-top:1em;
+main>section:nth-of-type(2) header {
+	padding-top: 1em;
 }
 
-main > section:nth-of-type(2) header a{
-	display:block;
+main>section:nth-of-type(2) header a {
+	display: block;
 	margin: 1em 1em 2em 1em;
 }
 
 
-section ul li:first-of-type div, main section ul li:nth-of-type(3) div {
+section ul li:first-of-type div,
+main section ul li:nth-of-type(3) div {
 	position: absolute;
 	bottom: 0%;
 	left: 50%;
@@ -216,34 +290,49 @@ section ul li:first-of-type div, main section ul li:nth-of-type(3) div {
 
 /*blokje met prijs*/
 section ul li div:first-of-type a {
-	 display:block;
-	 font-family: 'Montserrat', sans-serif;
-	 font-size: 15px;
-	 text-align:left;
-     position:absolute;
-  	 left:.5em;
-	 bottom:6em;
-	 margin:1em 1em 2em 1em; padding:1em;
-	 color:white;
-	 background-color:rgba(85,85,85,.75);
+	display: block;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	text-align: left;
+	position: absolute;
+	left: .5em;
+	bottom: 6em;
+	margin: 1em 1em 2em 1em;
+	padding: 1em;
+	color: white;
+	background-color: rgba(85, 85, 85, .75);
 }
 
 
 footer {
-	background-color:#e4e4e4;
+	background-color: #e4e4e4;
 }
+
 footer p {
-	font-size:13px;
-	display:block;
-	padding:1em;
+	font-size: 13px;
+	display: block;
+	padding: 1em;
+	margin: 0;
 }
 
-footer ul{
-  list-style:none;
-  text-align:left;
+footer ul {
+	list-style: none;
+	text-align: left;
+	margin: 0;
 }
 
-footer h2, a{
-	font-weight:normal;
-    font-size:12px;
+footer h2,
+a {
+	font-weight: normal;
+	font-size: 12px;
+}
+
+@media (min-width:700px){
+	/*desktop first*/
+	main section:last-of-type section {
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+main > section:first-of-type{
+	max-width:60%;
 }
