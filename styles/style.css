@@ -66,9 +66,15 @@ header>nav ul {
 	padding: 0;
 }
 
+header> nav > ul:nth-of-type(3){
+	align-items:center;
+} 
+
+
 header>nav {
 	display: flex;
 	justify-content: space-between;
+	align-items:center;
 }
 
 header>nav ul li {
@@ -132,7 +138,7 @@ button {
 
 /*Section 1*/
 /*P en trending tekst*/
-body > section h2 {
+body>section h2 {
 	font-size: 15px;
 	text-align: left;
 	padding-left:1em;
@@ -143,6 +149,10 @@ body > section p {
 }
 
 /*images in cirkels*/
+body > section{
+	padding:0 1.1em;
+}
+
 body>section ul {
 	position: relative;
 	display: flex;
@@ -150,15 +160,17 @@ body>section ul {
 	flex-direction: row;
 	overflow: hidden;
 	width: 100%;
+	justify-content: space-between;
 }
 
-body>section ul li {
+body > section ul li {
 	display: block;
-	width: 25%;
+	width: 20%;
 }
 
-body>section ul li img {
+body > section ul li img {
 	border-radius: 50%;
+	width:100%;
 }
 
 
@@ -357,4 +369,72 @@ a {
 	max-width:60%;
 	margin:auto;	
 	}
+}
+
+
+/* PRODUCTPAGINA */
+
+/*Text*/
+.productpagina h2{
+	text-align:center;
+	font-size:20px;
+	/*padding:;*/
+}
+
+
+/*Main*/
+
+.productpagina main section{
+	display:grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap:1em;
+}
+
+/*articles - producten*/
+
+.productpagina section article h2{
+	font-size:12px;
+	text-align:left;
+}
+
+.productpagina section article p{
+	font-size:10px;
+	text-align:left;
+}
+
+.productpagina section article p:first-of-type{
+	color:#007b5f;
+}
+
+.productpagina section article img:first-of-type{
+	display: block;
+	width: 100%;
+}
+
+/*hartje in afbeelding*/
+.productpagina section article{
+	position:relative;
+}
+
+.productpagina section article img:nth-of-type(2){
+	display: block;
+	position: absolute;
+	right: .5em;
+	bottom: 10em;
+}
+
+/*laadbutton*/
+ .productpagina section button{
+ 	grid-column:1 / -1;
+ 	margin:0 auto 2em;
+	padding:1em 3.5em;
+	color:white;
+	background-color:black;
+	font-weight:700;
+ }
+
+
+/*Footer*/
+.productpagina footer h2{
+	font-size:12px;
 }
