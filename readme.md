@@ -30,7 +30,30 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 2 (week 5)
 
--same as voortgang 1-
+### Stand van zaken
+ 
+Wat ging er minder goed?
+- mijn hamburgermenu vormgeven, kwam ik ook nog niet helemaal uit dus die heb ik maar even gelaten
+- productpagina, de teksten eronder vormgeven
+- foto's worden vaak onscherp bij mij - is dat erg?
+
+
+Wat ging er goed?
+- eerste pagina is zo goed als af, nog werken aan responsive maken
+- begonnen aan tweede pagina, niet zo moeilijk als ik dacht
+
+**Screenshot(s):**
+
+![img van voortgang](images/voortgangwk3-1.png)
+![img van voortgang](images/voortgangwk3-2.png)
+![img van voortgang](images/voortgangwk3-3.png)
+
+### Agenda voor meeting
+- meer toelichting over onzichtbare headings
+- JS carrousel toelichting
+- blok boven nav in header of niet (ravi)
+
+### Verslag van meeting
 
 
 
