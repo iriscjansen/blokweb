@@ -27,7 +27,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 ### Stand van zaken
  
 Wat ging er minder goed?
-- mijn hamburgermenu vormgeven, ben er aan begonnen maar ik krijg de vormgeving nog niet helemaal onder controle
+- mijn hamburgermenu vormgeven
 
 
 Wat ging er goed?
@@ -37,13 +37,12 @@ Wat ging er goed?
 **Screenshot(s):**
 
 ![img van voortgang](images/voortgangwk6-1.png)
-![img van voortgang](images/voortgangwk6-2.png)
+![img van voortgang](images/voortgangwk6-3.png)
 
 ### Agenda voor meeting
 
 Individuele vragen
 - de afbeelding van het kruis valt weg in de achtergrond hoe los ik dat op?
-- vormgebving van roze balk in mn HB-menu
 - wat moet ik doen als ik me op de responsive plane ga focussen?
 
 Groep vragen
