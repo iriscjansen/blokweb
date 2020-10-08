@@ -24,8 +24,35 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 3 (week 6)
 
--same as voortgang 1-
+### Stand van zaken
+ 
+Wat ging er minder goed?
+- mijn hamburgermenu vormgeven, ben er aan begonnen maar ik krijg de vormgeving nog niet helemaal onder controle
 
+
+Wat ging er goed?
+-  het maken van linkjes en buttons van elementen die ook linkjes of buttons zijn
+- het maken van het wegklikken van mijn hamburgermenu zondeer button
+
+**Screenshot(s):**
+
+![img van voortgang](images/voortgangwk6-1.png)
+![img van voortgang](images/voortgangwk6-2.png)
+
+### Agenda voor meeting
+
+Individuele vragen
+- de afbeelding van het kruis valt weg in de achtergrond hoe los ik dat op?
+- vormgebving van roze balk in mn HB-menu
+- wat moet ik doen als ik me op de responsive plane ga focussen?
+
+Groep vragen
+- toelichting mediaqueries
+- toegankelijkheid in safari (ravi)
+
+### Verslag van meeting
+
+-
 
 
 ## Voortgang 2 (week 5)
@@ -55,7 +82,7 @@ Wat ging er goed?
 
 ### Verslag van meeting
 
-
+We hebben iedereens website besproken en wat feedback gekregen. Ik had niet heel veel feedback, ik moest vooral echt linkjes en buttons gaan maken van afbeeldingen die dat zijn.
 
 ## Voortgang 1 (week 3)
 
