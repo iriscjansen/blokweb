@@ -36,7 +36,7 @@ Wat ging er goed?
 
 **Screenshot(s):**
 
-![img van voortgang](images/voortgangwk6-1.png)
+![img van voortgang](images/voortgangwk6-2.png)
 ![img van voortgang](images/voortgangwk6-3.png)
 
 ### Agenda voor meeting
