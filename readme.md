@@ -7,8 +7,8 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Bronnenlijst
 1. https://css-tricks.com/
-2. 
-3. 
+2. https://www2.hm.com/nl_nl/index.html
+3. https://chrome.google.com/webstore/detail/web-developer/bfbameneiokkgbdmiekhjnmfkcnldhhm
 
 
 
@@ -51,7 +51,9 @@ Groep vragen
 
 ### Verslag van meeting
 
--
+- mijn headings bekeken of die goed genoeg waren
+- uitleg gehad over de svg animatie, joost gaf aan dat ik dat misschien wel kon gaan doen (twijfel nog wel)
+- ondertussen lijstje gemaakt met dingen die ik nog wil/moet doen
 
 
 ## Voortgang 2 (week 5)
@@ -120,7 +122,7 @@ Joost heeft van alles uitgelegd en toegelicht, daardoor is veel opgehelderd. Ook
 
 **Je startniveau:** De blauwe piste
 
-**Je focus:** Twijfel ik nog steeds over
+**Je focus:** Responsive
 
 **Je opdracht:** https://www2.hm.com/nl_nl/index.html
 
