@@ -17,7 +17,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 Ik vond dit vak erg moeilijk aan het begin en had mezelf mede daardoor op de blauwe piste geplaatst. Ik vond het vorig jaar namelijk erg lastig en had dus niet al te hoge verwachtingen van mezelf. Nu ik dit vak bijna heb afgerond kan ik absoluut zeggen dat ik mega veel geleerd hebt en echt niet zo laag over mezelf hoef te denken.
 
-Door alle hulp vanuit de docenten, student-assistenten en klasgenoten ben ik erg ver gekomen en heb ik een website gemaakt waarvan ik 7 weken geleden niet had gedacht dat dat zou kunnen lukken.
+Door alle hulp vanuit de docenten, student-assistenten en klasgenoten ben ik erg ver gekomen en heb ik een website gemaakt waarvan ik 7 weken niet had gedacht dat dat zou kunnen lukken.
 
 Wat goed ging:
  - nagaan wanneer er een a of een button gebruikt moest worden
