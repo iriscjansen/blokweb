@@ -8,7 +8,8 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 ## Bronnenlijst
 1. https://css-tricks.com/
 2. https://www2.hm.com/nl_nl/index.html
-3. https://csspeeper.com (Om de headings mee te checken)
+3. https://csspeeper.com
+4. Web developer chrome extention (Om de headings mee te checken)
 4. Medestudenten Ysabella en Ravi
 
 
