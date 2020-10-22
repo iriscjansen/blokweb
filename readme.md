@@ -8,18 +8,41 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 ## Bronnenlijst
 1. https://css-tricks.com/
 2. https://www2.hm.com/nl_nl/index.html
-3. https://chrome.google.com/webstore/detail/web-developer/bfbameneiokkgbdmiekhjnmfkcnldhhm
+3. https://csspeeper.com (Om de headings mee te checken)
+4. Medestudenten Ysabella en Ravi
 
 
 
 ## Eindgesprek (week 7/8)
 
--dit ging goed & dit was lastig-
+Ik vond dit vak erg moeilijk aan het begin en had mezelf mede daardoor op de blauwe piste geplaatst. Ik vond het vorig jaar namelijk erg lastig en had dus niet al te hoge verwachtingen van mezelf. Nu ik dit vak bijna heb afgerond kan ik absoluut zeggen dat ik mega veel geleerd hebt en echt niet zo laag over mezelf hoef te denken.
+
+Door alle hulp vanuit de docenten, student-assistenten en klasgenoten ben ik erg ver gekomen en heb ik een website gemaakt waarvan ik 7 weken niet had gedacht dat dat zou kunnen lukken.
+
+Wat goed ging:
+ - nagaan wanneer er een a of een button gebruikt moest worden
+ - headings toevoegen op plekken die een heading nodig hadden
+ - het niet gebruiken van classes maar nth-of-type etc. (hier moest ik wel even inkomen)
+
+Wat ik lastig vond:
+ - mijn hamburgermenu maken met JavaScript en daarna nog vormgeven, uiteindelijk gelukt
+ - het gebruik van flexbox
+ - keuze tussen responsive of surfaceplane
+ - het maken van de huiswerkopdrachten naast het maken van mijn website, in de eerste weken gelukt daarna eigenlijk nauwelijks meer.
+ - het responsive maken van mijn website
 
 **Screenshot(s):**
 
--screenshot(s) van je eindresultaat-
-
+Hamburgermenu
+![img van eindresultaat](images/hamburger_eind.png)
+Productpagina met hover over afbeeldingen
+![img van eindresultaat](images/productoverlay_eind.png)
+Op desktop geen hamburgermenu maar menubalk
+![img van eindresultaat](images/responsive_eind.png)
+Scrollen door de trending right now op mobiel
+![img van eindresultaat](images/scrollTRN_eind.png)
+Footer vormgeving
+![img van eindresultaat](images/footerhover_eind.png)
 
 
 ## Voortgang 3 (week 6)

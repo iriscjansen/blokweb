@@ -1,5 +1,7 @@
 // JavaScript Document
 
+//Hamburgermenu
+
 var body = document.querySelector('body');
 var hamburger = document.querySelector('nav ul:nth-of-type(2) li button');
 var menu = document.querySelector('nav ul:first-of-type')
